@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AceyDeucey</string>
+    <string name="startscreen">startscreen</string><string name="settings">settings</string><string name="partydeal">partydeal</string>
+    
+    
+    <string name="partyreveal">partyreveal</string><string name="scorekeeperui">scorekeeperui</string>
+    <string name="gamedeal">gamedeal</string><string name="gamereveal">gamereveal</string>
+    
+    
+    <string name="score">score</string>
+    <string name="card">card</string>
+    <string name="scores">Scores: </string>
+    <string name="empty"/>
+    <string name="company">intakt apps</string>
+    <string name="partymode">Party Mode? </string>
+
+</resources>

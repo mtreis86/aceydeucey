@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="5dp"
+    android:layout_weight="1"
+    android:adjustViewBounds="false"
+    android:background="@drawable/blank"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:layout_margin="5dp"
+        android:gravity="right"
+        android:text="@string/scores"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/scoretext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:layout_margin="5dp"
+        android:gravity="right"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:typeface="sans" />
+
+    <include
+        android:id="@+id/scoresbtnfinished"
+        layout="@layout/buttonsettings" />
+
+</LinearLayout>
